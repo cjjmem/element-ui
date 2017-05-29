@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <el-button @click.native="startHacking">Let's do it</el-button>
+
     <router-view></router-view>
   </div>
 </template>
@@ -27,6 +25,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="sass">
   @import "sass/index.sass";
+  body,p,a,span,ul,li{
+    margin: 0;
+    padding: 0;
+  }
+
 </style>

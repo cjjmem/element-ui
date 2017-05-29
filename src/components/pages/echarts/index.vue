@@ -1,16 +1,21 @@
 <template>
-  <div id="home">
+  <div>
     {{ page }}
+
+    23232
   </div>
 </template>
 
 <script>
   export default{
-    name:"hone",
     data(){
       return{
-        page: 'home'
+        page: 'echart'
       }
     }
   }
 </script>
+
+<style>
+
+</style>
